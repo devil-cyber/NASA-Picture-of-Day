@@ -1,4 +1,4 @@
-// api key=f3JN8xm2jRgxw8Ah4zAfiZHQn9fa82xtclYNxsbj
+ // used your own API KEY
 
 function displayImage(data){
   var p=$("#para");
