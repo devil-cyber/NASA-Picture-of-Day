@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <style>
+            .c1 a{
+                font-family: cursive;
+                font-size: 1.2rem;
+                color:red;
+                text-decoration: none;
+
+            }
+            .c1{
+                font-family: cursive;
+                font-size: 1.2rem;
+                color:orange;
+            }
+            body{
+                background-color: black;
+            }
+            #c{
+                color:darkblue !important;
+            }
+            .in{
+                padding:3px;
+                background-color:lightgray;
+            }
+            .btn{
+                padding:3px;
+                background-color: lightgray;
+            }
+          #im{
+              width:100%;
+              height:60%;
+           
+   
+          }
+          #para{
+              color:white;
+              font-family: cursive;
+              text-align: justify;
+          }
+        </style>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>NAPOD</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </head>
+    <body>
+       <center><span class="c1">Enter date in range of (1995 to currnet) and get the NASA <a target="_blank" href="https://api.nasa.gov/"> image of day</a> wait for some time image take time in loading. </span></center>
+      
+       <center><span ><a class="c1" id="c" href="https://www.linkedin.com/in/manikant-kumar-550998192/">Contact&nbsp;me</a></span></center>
+       <br>
+       <center><input class="in" type="text" placeholder="YYYY-MM-DD"><button class="btn" type="submit">Get Image</button></center>
+        <div id="image">
+            <p id="para"></p>
+            <img id="im" src="nasa3.jpg">
+        </div>
+         
+        <script src="NAPOD.js" async defer></script>
+    </body>
+</html>
